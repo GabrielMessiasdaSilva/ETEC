@@ -11,7 +11,7 @@ import javax.swing.JOptionPane;
  * @author dti
  */
 public class Exemplo_4 {
-    public static void main(String[] args)
+    public static void main(String[] args) //Aqui declaramos o método principal porém como existe o Void siginifica que não trará nenhum retorno
     {
         int num;
         num=Integer.parseInt(JOptionPane.showInputDialog("Entre com um numero"));

@@ -7,12 +7,10 @@
     <title>Acao</title>
 </head>
 <body>
-<?php
-$Vnome=$_POST['nome'];
-$Vidade=$_POST['idade'];
-
- echo "OI !!" .$Vnome. "."  . "<br>" . "voce tem" . $Vidade.  " anos !!";
-
+    <?php
+$Vnome=$_POST["nome"];
+$Vidade=$_POST["idade"];
+echo "Oi ".$Vnome." ." ."<br>"."Voce tem ".$Vidade." anos!!";
 ?>
 </body>
 </html>
