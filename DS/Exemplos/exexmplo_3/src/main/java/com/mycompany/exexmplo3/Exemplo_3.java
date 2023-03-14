@@ -13,7 +13,7 @@ public class Exemplo_3 {
 
     public static void main(String[] args) 
     {
-        int idade1, idade2;
+        int idade1, idade2; 
         String nome1, nome2;
 
         nome1 = JOptionPane.showInputDialog("Digite o nome da 1° pessoa ");
@@ -26,9 +26,10 @@ public class Exemplo_3 {
         JOptionPane.showInputDialog(null, texto);
     }
 
-    static String PessoaMaisVelha(String n1, int id1, String n2, int id2) {
+    static String PessoaMaisVelha(String n1, int id1, String n2, int id2) // aqui temos o método e como aconteceu no exemplo 3,os paramentros que tem uma variavel foi trocado 
+    {
         {
-            if (id1 > id2) 
+            if (id1 > id2) //temos a estrutura condicional 
                 return n1 + " É"
                         + ""
                         + ""
@@ -38,7 +39,7 @@ public class Exemplo_3 {
                    return n2 + " É a pessoa mais velha";
              else 
                   
-                return n1 + "e" + n2 + "tem a mesma idade";
+                return n1 + "e" + n2 + "tem a mesma idade"; //e aqui temos o retorno o qual o método leu 
             
 
         }

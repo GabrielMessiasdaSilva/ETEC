@@ -14,7 +14,7 @@ public class exemplo_um {
     public static void main(String[]args) //Aqui declaramos o método principal porém como existe o Void siginifica que não trará nenhum retorno
     {
         int a; //Declaração da variavel do tipo inteiro
-        digite(); //nesse momento chamará o método digite que tambem não tem nenhum valor ou melhor nenhnum retorno
+        digite(); //nesse momento chamará o método (digite) que tambem não tem nenhum valor ou melhor nenhnum retorno
         a = Integer.parseInt (JOptionPane.showInputDialog("digite um numero"));// 
         dobro(a);// aqui chamaremos um outro método chamado dobro,esse ja recebe um "Valor" que é a variavel criada 
     } //aqui termina o método 
@@ -23,9 +23,9 @@ public class exemplo_um {
        JOptionPane.showInputDialog(null,"Digite um numero"); //Aqui abrirá uma caixa de dialogo,no qual metodo main leu e retornou  
     }
 
-     static void dobro(int n) {
-        int d =n*2;
-        JOptionPane.showInputDialog(null,"Dobro de" +n+ "é" +d);
+     static void dobro(int n) { //aqui temos o metodo dobro,aquele que ficou resposavel pelo o calculo
+        int d =n*2; //podemos notar que o calculo foi realizado
+        JOptionPane.showInputDialog(null,"Dobro de" +n+ "é" +d); //aqui então será o resultado
     }
     
 }

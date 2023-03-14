@@ -1,0 +1,121 @@
+A)Cadastro de produtos
+
+Entidade:
+	Produtos
+
+Atributos:
+	Codigoproduto(PK)
+	
+	Nome do produto
+	prazo de validade
+	Descrição do produto
+	Marca do produto
+	Cores do produto
+	fornecedor do produto
+	Modelo 
+	
+
+PK: O códigoproduto seria único para aquele produto,sendo mais espeficico e tendo o autoincremento
+se houver um outro material não terá o mesmo Código de um produto de um material diferente.
+	
+
+B)Cadastro de funcionário
+
+Entidade:
+	Funcionario
+
+Atributos:
+	Registro do Trabalhador (PK)
+
+	Nome
+        Funcao
+	Salario
+	RG
+	CPF
+	Bairro
+	Cidade
+	CEP 
+	Data de Nascimento
+	Jornada de trabalho
+	Sexo
+	
+PK:Registro do Trabalhador,seria um código unico para cada funcionáro separando um 
+funcionário do outro distinguindo  a função ou a media salarial.
+ 
+C)Cadastro de fornecedores
+
+Entidade:
+	Fornecedor
+Atributos:
+	CodigodoFornecedor (PK)
+
+	NomedaEmpresafornecedora
+	Cnpj
+	Telefone
+  	E-mail
+	Endereço
+	site
+	
+pk:o código da empresa fornecedora teria um autoincremento não podendo ser um numero grande e haveria diferença de um fornecedor para o outro.
+	
+
+D)Cadastro de departamentos
+
+Entidade:
+	Departamento
+
+Atributos:
+	Setor  (PK)
+	Atividades
+	Funções
+	Jornada de trabalho
+	controle de gasto do setor
+Pk:O numero do setor não pode ser um numero grande,e cada setor tem uma função diferente logo o numero do setor será diferente tambem fazendo a divisão de cada departamento.
+
+
+
+2)
+a)
+Entidade:
+	Consulta Medica
+
+Atributo:
+	Nome
+	Data
+	Horario
+	Paciente
+	Genero
+
+
+
+
+
+
+b)
+Entidade:
+	Filme
+
+Atributo:
+	Nome
+	Data
+	Horario
+	Duração
+	Genero
+	Ator
+	Diretor
+
+
+
+
+
+c)
+
+Entidade:
+	Livro
+
+Atributo:
+	Data
+	Autor
+	Nome
+	Genero
+	Editora
